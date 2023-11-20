@@ -157,3 +157,16 @@ const decryptedTextNumber = OctCipher.decrypt(encryptedTextNumber);
 console.log('Decrypted Text (Number):', decryptedTextNumber);
 
 ```
+
+```js
+const { ReverseCipher } = require('decrypto'); 
+
+const plaintext = 'Hello, World!';
+console.log('Original Text:', plaintext);
+
+const encryptedText = ReverseCipher.encrypt(plaintext);
+console.log('Encrypted Text:', encryptedText);
+
+const decryptedText = ReverseCipher.decrypt(encryptedText);
+console.log('Decrypted Text:', decryptedText);
+```

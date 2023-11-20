@@ -7,4 +7,7 @@ export { Base64Cipher } from "./base64Cipher";
 export { BinaryCipher } from "./binaryCipher";
 export { HexCipher } from "./hexCipher";
 export { OctCipher } from "./octCipher";
+export { ReverseCipher } from "./reverseCipher";
+export { RomanNumCipher } from "./romanNumCipher";
+export { ROT13Cipher } from "./rot13Cipher";
 //# sourceMappingURL=index.d.ts.map
