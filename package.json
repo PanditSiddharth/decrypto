@@ -1,0 +1,60 @@
+{
+  "name": "decrypto",
+  "version": "1.0.0",
+  "description": "A light-weight encryption & decryption library, Built with power and simplicity!",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
+  },
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./lib/index.js"
+    }
+  },
+  "types": "./types/index.d.ts",
+  "files": [
+    "src/**/*.ts",
+    "lib/**/*.js",
+    "types/**/*.d.ts",
+    "types/**/*.d.ts.map"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanditSiddharth/decrypto.git"
+  },
+  "keywords": [
+    "open-source",
+    "package",
+    "cryptography",
+    "encryption",
+    "cipher",
+    "decryption",
+    "hacktoberfest",
+    "encryption-decryption",
+    "cipher-algorithms"
+  ],
+  "author": {
+    "name": "Siddharth Sharma",
+    "email": "mynmss3@gmail.com",
+    "url": "https://telegram.me/PanditSiddharth"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/license/mit-0/"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/PanditSiddharth/decrypto/issues"
+  },
+  "homepage": "https://github.com/PanditSiddharth/decrypto#readme"
+}
