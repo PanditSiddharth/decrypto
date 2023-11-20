@@ -10,4 +10,5 @@ export { OctCipher } from "./octCipher";
 export { ReverseCipher } from "./reverseCipher";
 export { RomanNumCipher } from "./romanNumCipher";
 export { ROT13Cipher } from "./rot13Cipher";
+export { RSACipher } from "./rsaCipher";
 //# sourceMappingURL=index.d.ts.map

@@ -170,3 +170,29 @@ console.log('Encrypted Text:', encryptedText);
 const decryptedText = ReverseCipher.decrypt(encryptedText);
 console.log('Decrypted Text:', decryptedText);
 ```
+```js
+let { ROT13Cipher } = require("decrypto")
+// Usage in JavaScript
+const cipher = new ROT13Cipher();
+
+const plaintext = 'Hello, World!';
+console.log('Original Text:', plaintext);
+
+const encryptedText = cipher.encrypt(plaintext);
+console.log('Encrypted Text:', encryptedText);
+
+const decryptedText = cipher.decrypt(encryptedText);
+console.log('Decrypted Text:', decryptedText);
+```
+
+```js
+let { RomanNumCipher } = require("decrypto")
+// Usage in JavaScript
+const cipher = new RomanNumCipher();
+
+const encryptedValue = cipher.encrypt(123); // Encrypting a number
+console.log('Encrypted Roman Numeral:', encryptedValue);
+
+const decryptedValue = cipher.decrypt('CXII'); // Decrypting a Roman numeral
+console.log('Decrypted Value:', decryptedValue);
+```
