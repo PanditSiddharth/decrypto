@@ -2,8 +2,10 @@
 Inspired by python decrypto lib  
 https://github.com/pyGuru123/Decrypto  
 
-Install this by command
+Install this by command  
+```js
 npm i decrypto
+```
 
 ```js
 const { AffineCipher } = require('decrypto'); 
